@@ -1,39 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Warrior Profile</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  background-color: #111;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+}
 
-  <header>
-    <h1>Welcome to the Warrior's Arena</h1>
-    <img src="img/me.jpg" alt="Warrior Photo" class="profile-img">
-  </header>
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
 
-  <section class="about">
-    <h2>About Me</h2>
-    <p>I train hard. I fight urges. I grow stronger every day. I’m not here to impress, I’m here to become unbreakable. My name is discipline.</p>
-  </section>
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ff0055;
+  margin-top: 20px;
+}
 
-  <section class="training">
-    <h2>Training Routine</h2>
-    <ul>
-      <li>💪 Monday: Chest & Triceps</li>
-      <li>🏋️‍♂️ Wednesday: Back & Biceps</li>
-      <li>🔥 Friday: Legs & Shoulders</li>
-      <li>👟 Cardio: Tues, Thurs, Sat</li>
-    </ul>
-  </section>
+h1 {
+  color: #ff0055;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-  <section class="goals">
-    <h2>My Goals</h2>
-    <p>Bulk to 80 kg. Build an online business. Stay on NoFap for 90 days. Become the 1%.</p>
-  </section>
+section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 12px;
+}
 
-  <button>Join the Journey</button>
+h2 {
+  color: #00bfff;
+  border-bottom: 2px solid #444;
+  padding-bottom: 10px;
+}
 
-</body>
-</html>
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+button {
+  background-color: #00bfff;
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0080ff;
+  transform: scale(1.05);
+}
