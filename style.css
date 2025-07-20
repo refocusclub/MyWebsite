@@ -1,16 +1,39 @@
-body {
-  background-color: #c487c466;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 100px;
-}
-h1 {
-  collor #333;
-}
-  button {
-    padding: 10px 20px;
-    background-color: #0febb4;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warrior Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to the Warrior's Arena</h1>
+    <img src="img/me.jpg" alt="Warrior Photo" class="profile-img">
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I train hard. I fight urges. I grow stronger every day. I’m not here to impress, I’m here to become unbreakable. My name is discipline.</p>
+  </section>
+
+  <section class="training">
+    <h2>Training Routine</h2>
+    <ul>
+      <li>💪 Monday: Chest & Triceps</li>
+      <li>🏋️‍♂️ Wednesday: Back & Biceps</li>
+      <li>🔥 Friday: Legs & Shoulders</li>
+      <li>👟 Cardio: Tues, Thurs, Sat</li>
+    </ul>
+  </section>
+
+  <section class="goals">
+    <h2>My Goals</h2>
+    <p>Bulk to 80 kg. Build an online business. Stay on NoFap for 90 days. Become the 1%.</p>
+  </section>
+
+  <button>Join the Journey</button>
+
+</body>
+</html>
