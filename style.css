@@ -64,4 +64,8 @@ button {
 button:hover {
   background-color: #0080ff;
   transform: scale(1.05);
+button:focus,
+  a:focus {
+    outline: none;
+    box-shadow: none;
 }
